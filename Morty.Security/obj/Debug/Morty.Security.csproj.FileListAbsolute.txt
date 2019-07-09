@@ -1,0 +1,6 @@
+D:\Dropbox\arts\ADFS\Source\Morty.Security\bin\Debug\Morty.Security.dll
+D:\Dropbox\arts\ADFS\Source\Morty.Security\bin\Debug\Morty.Security.pdb
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csprojAssemblyReference.cache
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csproj.CoreCompileInputs.cache
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.dll
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.pdb
