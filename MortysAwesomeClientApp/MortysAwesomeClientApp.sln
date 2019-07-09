@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortysAwesomeClientApp", "MortysAwesomeClientApp.csproj", "{2CED9BBC-CD91-4B14-985F-8ADBD8701BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morty.Security", "..\Morty.Security\Morty.Security.csproj", "{9DAACB9F-A8F4-43EE-A1C6-503C8F714FF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CED9BBC-CD91-4B14-985F-8ADBD8701BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CED9BBC-CD91-4B14-985F-8ADBD8701BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CED9BBC-CD91-4B14-985F-8ADBD8701BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CED9BBC-CD91-4B14-985F-8ADBD8701BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAACB9F-A8F4-43EE-A1C6-503C8F714FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAACB9F-A8F4-43EE-A1C6-503C8F714FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAACB9F-A8F4-43EE-A1C6-503C8F714FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAACB9F-A8F4-43EE-A1C6-503C8F714FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {036E464B-529C-4DFC-A36A-B519A69DC95A}
+	EndGlobalSection
+EndGlobal
