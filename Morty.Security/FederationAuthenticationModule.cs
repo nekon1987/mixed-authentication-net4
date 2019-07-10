@@ -1,182 +1,110 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using log4net;
+using System;
 using System.IdentityModel.Services;
-using System.IdentityModel.Tokens;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net;
+using System.Reflection;
+using System.Security.Principal;
 using System.Web;
 
 namespace Morty.Security
 {
-    public class FederationAuthenticationModule : System.IdentityModel.Services.WSFederationAuthenticationModule
+    public class FederationAuthenticationModule : WSFederationAuthenticationModule
     {
-        public override bool CanReadSignInResponse(HttpRequestBase request, bool onPage)
-        {
-            return base.CanReadSignInResponse(request, onPage);
-        }
-
-        public override SecurityToken GetSecurityToken(HttpRequestBase request)
-        {
-            return base.GetSecurityToken(request);
-        }
-
-        protected override string GetReferencedResult(string resultPtr)
-        {
-            return base.GetReferencedResult(resultPtr);
-        }
-
-        public override SecurityToken GetSecurityToken(SignInResponseMessage message)
-        {
-            return base.GetSecurityToken(message);
-        }
-
-        protected override string GetSessionTokenContext()
-        {
-            return base.GetSessionTokenContext();
-        }
-
-        protected override void InitializeModule(HttpApplication context)
-        {
-            base.InitializeModule(context);
-        }
-
-        public override string GetXmlTokenFromMessage(SignInResponseMessage message, WSFederationSerializer federationSerializer)
-        {
-            return base.GetXmlTokenFromMessage(message, federationSerializer);
-        }
-
-        protected override string GetReturnUrlFromResponse(HttpRequestBase request)
-        {
-            return base.GetReturnUrlFromResponse(request);
-        }
-
-        public override SignInResponseMessage GetSignInResponseMessage(HttpRequestBase request)
-        {
-            return base.GetSignInResponseMessage(request);
-        }
-
-        protected override string GetSignOutRedirectUrl(SignOutCleanupRequestMessage signOutMessage)
-        {
-            return base.GetSignOutRedirectUrl(signOutMessage);
-        }
-
-        protected override void OnSignOutError(ErrorEventArgs args)
-        {
-            base.OnSignOutError(args);
-        }
-
-        public override string GetXmlTokenFromMessage(SignInResponseMessage message)
-        {
-            return base.GetXmlTokenFromMessage(message);
-        }
-
-        protected override void InitializePropertiesFromConfiguration()
-        {
-            base.InitializePropertiesFromConfiguration();
-        }
-
-        public override bool IsSignInResponse(HttpRequestBase request)
-        {
-            return base.IsSignInResponse(request);
-        }
-
-        protected override void OnPostAuthenticateRequest(object sender, EventArgs e)
-        {
-            base.OnPostAuthenticateRequest(sender, e);
-        }
+        private readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         protected override void OnAuthorizationFailed(AuthorizationFailedEventArgs e)
         {
             base.OnAuthorizationFailed(e);
         }
 
-        protected override void OnSessionSecurityTokenCreated(SessionSecurityTokenCreatedEventArgs args)
-        {
-            base.OnSessionSecurityTokenCreated(args);
-        }
-        protected override void OnSignedIn(EventArgs args)
-        {
-            base.OnSignedIn(args);
-        }
-
-        public override void SignOut()
-        {
-            base.SignOut();
-        }
-
-        protected override void OnSignedOut(EventArgs args)
-        {
-            base.OnSignedOut(args);
-        }
-
-        public override void SignIn(string ControlId)
-        {
-            base.SignIn(ControlId);
-        }
-
-        public override void SignOut(bool isIPRequest)
-        {
-            base.SignOut(isIPRequest);
-        }
-
-
-        protected override void OnSignInError(ErrorEventArgs args)
-        {
-            base.OnSignInError(args);
-        }
-
-        protected override void OnSigningOut(SigningOutEventArgs args)
-        {
-            base.OnSigningOut(args);
-
-        }
-
-        public override void SignOut(string redirectUrl)
-        {
-            base.SignOut(redirectUrl);
-        }
-
-        public override void SignOut(string redirectUrl, bool initiateSignoutCleanup)
-        {
-            base.SignOut(redirectUrl, initiateSignoutCleanup);
-        }
-
-        public override void RedirectToIdentityProvider(string uniqueId, string returnUrl, bool persist)
-        {
-            base.RedirectToIdentityProvider(uniqueId, returnUrl, persist);
-        }
-
-        protected override void OnRedirectingToIdentityProvider(RedirectingToIdentityProviderEventArgs e)
-        {
-            base.OnRedirectingToIdentityProvider(e);
-        }
-
-        protected override void OnAuthenticateRequest(object sender, EventArgs args)
-        {
-            base.OnAuthenticateRequest(sender, args);
-        }
-
         protected override void OnEndRequest(object sender, EventArgs args)
         {
-            return;
-            base.OnEndRequest(sender, args);
-            return;
-
             HttpApplication httpApplication = (HttpApplication)sender;
 
-            var shouldUseThisModule = false; // = DateTime.Now.Minute % 2 == 0; // #TestMode >> only for even minutes 
-
-            if (shouldUseThisModule)
+            log.Info($"WSFederation -> {Test_ShouldUseFederationAuthenticationBasedOn10secondWindow}");
+            if (false)
             {
+                log.Info($"WSFederation -> Module logic is executed");
+                if (CheckIfWindowAuthenticationDetailsExist(httpApplication))
+                {
+                    log.Info($"WSFederation -> Clearing windows credentials");
+                 //   ClearWSFederationAuthenticationDetails();
+                   // ClearWindowsIntegratedAuthenticationDetails(httpApplication);
+                    return;
+                }
+                log.Info($"WSFederation -> Serving request with base code");
                 base.OnEndRequest(sender, args);
             }
             else
             {
+                log.Info($"WSFederation -> Module logic is bypassed");
                 /* 
                  * If base.OnEndRequest isnt executed this will cause pipeline to 
                  * pass authentication to the next configured module
                  */
+                if (CheckIfWSFederationAuthenticationDetailsExist())
+                {
+                    log.Info($"WSFederation -> Clearing WSFederation credentials for windows module which should be executed next");
+                  //  ClearWSFederationAuthenticationDetails();
+                 //   ClearWindowsIntegratedAuthenticationDetails(httpApplication);
+                }
+            }
+        }
+
+        private bool CheckIfWSFederationAuthenticationDetailsExist()
+        {
+            return FederatedAuthentication.SessionAuthenticationModule.ContextSessionSecurityToken != null &&
+                   FederatedAuthentication.SessionAuthenticationModule.ContextSessionSecurityToken.ClaimsPrincipal.Identity.IsAuthenticated;
+        }
+
+        private bool CheckIfWindowAuthenticationDetailsExist(HttpApplication httpApplication)
+        {
+            return httpApplication.Request.RequestContext.HttpContext.User is WindowsPrincipal &&
+                   httpApplication.Request.RequestContext.HttpContext.User.Identity.IsAuthenticated;
+        }
+
+        private void ClearWSFederationAuthenticationDetails()
+        {
+            FederatedAuthentication.WSFederationAuthenticationModule.SignOut();
+            //FederatedAuthentication.SessionAuthenticationModule.SignOut();
+        }
+
+        private void ClearWindowsIntegratedAuthenticationDetails(HttpApplication httpApplication)
+        {
+            httpApplication.Request.RequestContext.HttpContext.User = null;
+            if (httpApplication.Request.RequestContext.HttpContext.Request.Cookies[".AspNet.Cookies"] != null)
+            {
+                httpApplication.Request.RequestContext.HttpContext.Request.Cookies[".AspNet.Cookies"].Value = string.Empty;
+                httpApplication.Request.RequestContext.HttpContext.Request.Cookies[".AspNet.Cookies"].Expires = DateTime.Now.AddMonths(-20);
+            }
+
+            httpApplication.Response.AppendHeader("Connection", "close");
+            httpApplication.Response.StatusCode = 403;
+            httpApplication.Response.Clear();
+            httpApplication.Response.Write("Unauthorized. Reload the page to try again...");
+            httpApplication.Response.End();
+        }
+
+        /// <summary>
+        /// Accessor for custom logic that steering authentication between ADFS and WindowsIntegrated
+        /// </summary>
+        private bool ShouldUseFederationAuthentication
+        {
+            get { return true; }
+        }
+
+        /// <summary>
+        /// Dummy switch for testing purposes - with this, authentication method will switch every 10 seconds
+        /// </summary>
+        private bool Test_ShouldUseFederationAuthenticationBasedOn10secondWindow
+        {
+            get
+            {
+                var first10secOfMinute = DateTime.Now.Second >= 0 && DateTime.Now.Second <= 10;
+                var third10secOfMinute = DateTime.Now.Second > 20 && DateTime.Now.Second <= 30;
+                var fifth10secOfMinute = DateTime.Now.Second > 50 && DateTime.Now.Second <= 60;
+
+                return first10secOfMinute || third10secOfMinute || fifth10secOfMinute;
             }
         }
     }

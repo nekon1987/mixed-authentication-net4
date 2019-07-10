@@ -4,3 +4,6 @@ D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csprojAssemb
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csproj.CoreCompileInputs.cache
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.dll
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.pdb
+D:\Dropbox\arts\ADFS\Source\Morty.Security\bin\Debug\log4net.dll
+D:\Dropbox\arts\ADFS\Source\Morty.Security\bin\Debug\log4net.xml
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csproj.CopyComplete

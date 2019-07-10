@@ -23,12 +23,11 @@ namespace Morty.Security
 
         protected override void OnAuthenticateRequest(object sender, EventArgs eventArgs)
         {
-            base.OnAuthenticateRequest(sender, eventArgs);
-            return;
+           // base.OnAuthenticateRequest(sender, eventArgs);
+          //  return;
 
 
             HttpApplication httpApplication = (HttpApplication)sender;
-
 
             IIdentity identity = Thread.CurrentPrincipal.Identity;
 

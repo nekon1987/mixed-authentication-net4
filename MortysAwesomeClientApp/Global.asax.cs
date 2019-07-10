@@ -1,8 +1,11 @@
+using log4net;
+using log4net.Config;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Services;
 using System.IdentityModel.Services.Configuration;
 using System.Linq;
+using System.Reflection;
 using System.ServiceModel.Security;
 using System.Web;
 using System.Web.Mvc;
@@ -13,19 +16,25 @@ namespace MortysAwesomeClientApp
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        private readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+ 
+
         protected void Application_Start()
         {
+            XmlConfigurator.Configure();
+            this.log.Info("Application startup");
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            FederatedAuthentication.FederationConfigurationCreated += FederatedAuthentication_FederationConfigurationCreated;
-           
+            FederatedAuthentication.FederationConfigurationCreated += FederatedAuthentication_FederationConfigurationCreated;           
         }
 
         private void FederatedAuthentication_FederationConfigurationCreated(object sender, FederationConfigurationCreatedEventArgs e)
         {
+            this.log.Info("Configuring WSFederation");
             //from appsettings...
             const string allowedAudience = "https://gy-gd-k120/MortysAwesomeClientApp/";
             const string rpRealm = "https://gy-gd-k120/MortysAwesomeClientApp/";

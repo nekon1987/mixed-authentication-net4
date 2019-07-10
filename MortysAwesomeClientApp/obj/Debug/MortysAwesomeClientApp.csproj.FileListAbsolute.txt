@@ -106,3 +106,5 @@ D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClient
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.csproj.CopyComplete
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.pdb
+D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.dll
+D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.xml
