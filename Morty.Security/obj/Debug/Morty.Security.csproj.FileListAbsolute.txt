@@ -6,3 +6,5 @@ D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csproj.CoreC
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csproj.CopyComplete
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.dll
 D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.pdb
+D:\Dropbox\arts\ADFS\Source\Morty.Security\obj\Debug\Morty.Security.csprojAssemblyReference.cache
+D:\Dropbox\arts\ADFS\Source\Morty.Security\bin\Debug\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll

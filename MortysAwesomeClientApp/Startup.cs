@@ -9,8 +9,7 @@ namespace MortysAwesomeClientApp
     {
         public void Configuration(IAppBuilder app)
         {
-
-            ConfigureAuth(app);
+            Microsoft.IdentityModel.Logging.IdentityModelEventSource.ShowPII = true;
         }
     }
 }
