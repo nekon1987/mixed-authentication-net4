@@ -48,6 +48,7 @@ D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\roslyn\vbc.rsp
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\roslyn\VBCSCompiler.exe
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\roslyn\VBCSCompiler.exe.config
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\Antlr3.Runtime.dll
+D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\Microsoft.IdentityModel.Logging.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
@@ -77,6 +78,7 @@ D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\System.Web.WebPages.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\System.Web.WebPages.Razor.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\WebGrease.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\Morty.Security.pdb
+D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.xml
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\System.Web.Helpers.xml
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\System.Web.Mvc.xml
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\System.Web.Optimization.xml
@@ -106,5 +108,3 @@ D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClient
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.csproj.CopyComplete
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.dll
 D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\obj\Debug\MortysAwesomeClientApp.pdb
-D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.dll
-D:\Dropbox\arts\ADFS\Source\MortysAwesomeClientApp\bin\log4net.xml

@@ -1,322 +1,335 @@
-dd2019-07-10 07:51:51,022 [43] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:51:51,287 [43] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:51:51,582 [77] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:51,585 [77] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:51,588 [77] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:52,618 [76] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:52,620 [76] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:52,621 [76] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:56,940 [1] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:51:57,031 [1] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:51:58,440 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,441 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,443 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:58,481 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,483 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,485 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:58,495 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,502 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,506 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:58,544 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,545 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,546 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:58,649 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,650 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,651 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:51:58,670 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:51:58,673 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:51:58,675 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:52:13,826 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:52:13,827 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:52:14,539 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:52:14,541 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:52:19,640 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:52:19,644 [11] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:38,649 [9] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:53:38,909 [9] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:53:39,048 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:39,049 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:39,356 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:39,360 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:44,453 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:44,454 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:46,482 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:46,484 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:47,306 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:47,307 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:47,952 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:47,955 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:48,411 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:48,414 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:48,873 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:48,874 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:49,295 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:49,297 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:49,825 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:49,826 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:50,274 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:50,275 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:50,697 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:53:50,700 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:53:52,679 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:53:52,680 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:53:52,684 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:53:53,284 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:53:53,285 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:53:53,286 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,239 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,241 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,242 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,284 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,297 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,299 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,305 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,309 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,311 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,312 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,315 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,317 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,325 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,326 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,328 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:00,331 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:00,332 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:00,334 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:02,182 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:02,183 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:02,184 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:02,722 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:02,725 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:02,726 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:03,153 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:03,155 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:03,155 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:03,580 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:03,581 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:03,582 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:03,846 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:03,849 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:03,850 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:04,279 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:04,280 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:04,281 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:04,767 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:04,768 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:04,769 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:04,961 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:04,962 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:04,962 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:05,199 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:05,203 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:05,204 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:05,590 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:05,591 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:05,594 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:08,769 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:08,770 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:08,771 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:09,348 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:09,350 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:09,351 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:09,622 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:09,625 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:09,626 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:10,028 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:10,029 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:10,031 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:10,423 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:10,426 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:10,429 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:10,611 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:10,612 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:10,615 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:10,976 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:10,977 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:10,978 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:11,394 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,395 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,396 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Clearing WSFederation credentials for windows module which should be executed next
-2019-07-10 07:54:11,592 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,594 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,605 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,607 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,628 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,629 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,639 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,641 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,641 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,654 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,672 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,674 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,686 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,687 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,807 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,810 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:11,829 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:54:11,831 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:54:57,651 [9] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:54:57,849 [9] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:54:58,010 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:58,011 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:58,012 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:54:58,465 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:54:58,466 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:54:58,467 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,492 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,494 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,497 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,530 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,532 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,536 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,579 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,580 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,581 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,594 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,595 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,595 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,656 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,657 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,660 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:02,677 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:55:02,679 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:55:02,680 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:55:13,942 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:55:13,943 [12] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:55:14,587 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:55:14,588 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:55:19,690 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:55:19,691 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:56:02,434 [9] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:56:02,637 [9] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:56:02,736 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:02,737 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:02,738 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:03,066 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:03,067 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:03,068 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,303 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,305 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,306 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,334 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,336 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,337 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,375 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,376 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,377 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,477 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,484 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,487 [17] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,543 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,544 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,546 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:07,555 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:56:07,556 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:56:07,558 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:56:14,721 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:56:14,722 [13] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:56:15,414 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:56:15,416 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:57:57,066 [9] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 07:57:57,292 [9] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 07:57:57,446 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:57:57,447 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:57:57,448 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:01,933 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:01,936 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:01,944 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:05,960 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:05,961 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:05,964 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:06,018 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:06,024 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:06,032 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:06,043 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:06,046 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:06,050 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:06,081 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:06,083 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:06,084 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:06,094 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:06,097 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:06,098 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:06,118 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:06,119 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:06,121 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:13,425 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:58:13,426 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:58:14,260 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:58:14,263 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:58:19,341 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:58:19,342 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:58:49,473 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:58:49,474 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:58:51,698 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:51,702 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:51,705 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,066 [32] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,067 [32] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,069 [32] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,109 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,110 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,111 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,149 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,152 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,154 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,207 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,209 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,213 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,234 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,235 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,239 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,309 [21] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,311 [21] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,312 [21] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,333 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,335 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,337 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:58:59,412 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:58:59,413 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:58:59,415 [16] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:59:12,116 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:59:12,118 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:59:12,121 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Clearing WSFederation credentials for windows module which should be executed next
-2019-07-10 07:59:17,601 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:59:17,607 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:59:17,616 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 07:59:17,618 [18] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 07:59:59,216 [22] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:59:59,217 [22] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:59:59,218 [22] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 07:59:59,224 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 07:59:59,226 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 07:59:59,226 [14] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 08:00:01,319 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:00:01,320 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 08:00:01,321 [15] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 08:00:01,327 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:00:01,328 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is executed
-2019-07-10 08:00:01,331 [8] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Serving request with base code
-2019-07-10 08:26:09,242 [1] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 08:26:09,651 [1] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 08:26:09,782 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:26:09,785 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:10,984 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:26:11,016 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:16,145 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:26:16,146 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:26,332 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:26:26,333 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:33,361 [10] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:26:33,362 [10] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:44,667 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:26:44,669 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:26:57,241 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> True
-2019-07-10 08:26:57,243 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:28:13,162 [13] INFO  MortysAwesomeClientApp.MvcApplication Application startup
-2019-07-10 08:28:13,441 [13] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
-2019-07-10 08:28:13,903 [21] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:28:13,904 [21] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:28:14,120 [23] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:28:14,121 [23] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
-2019-07-10 08:28:19,238 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> False
-2019-07-10 08:28:19,240 [9] INFO  Morty.Security.FederationAuthenticationModule WSFederation -> Module logic is bypassed
+sss2019-07-10 09:46:37,922 [22] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:37,924 [22] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,165 [15] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,167 [15] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,178 [11] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,189 [11] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,268 [35] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,287 [35] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,291 [36] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,295 [36] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,298 [35] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,305 [35] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,306 [36] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,308 [35] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,310 [7] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,300 [28] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,312 [7] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,316 [28] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,311 [35] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,308 [36] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:46:38,331 [19] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:46:38,333 [19] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:52:45,457 [34] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 09:52:45,636 [34] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 09:52:45,683 [14] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:52:45,684 [14] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:52:45,686 [14] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:52:45,696 [11] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:52:45,697 [11] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:52:48,436 [11] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:52:48,453 [5] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:52:48,455 [5] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:52:48,467 [5] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:52:48,471 [28] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:52:48,472 [28] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:52:48,477 [28] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:52:48,486 [19] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:52:48,488 [19] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:52:48,490 [19] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:53:03,703 [36] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:53:03,705 [36] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:53:03,708 [36] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:54:28,769 [5] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:54:28,770 [5] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:54:28,777 [5] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:54:28,792 [13] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:54:28,794 [13] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:54:28,796 [13] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:54:28,794 [28] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:54:28,805 [28] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:54:28,837 [28] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:54:37,631 [17] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:54:37,633 [17] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:54:37,637 [17] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:02,614 [22] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:02,615 [22] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:02,619 [22] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:02,634 [32] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:02,636 [32] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:02,635 [35] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:02,640 [35] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:02,646 [35] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:02,649 [32] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:06,247 [22] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:06,249 [22] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:06,254 [22] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:12,317 [35] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:12,320 [35] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:12,325 [35] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:55:45,385 [22] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 09:55:45,386 [22] INFO  WSFedModule FED2 -> NOT Using
+2019-07-10 09:55:45,389 [22] INFO  WSFedModule FED -> NOT Using
+2019-07-10 09:56:30,107 [1] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 09:56:30,324 [1] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 09:56:30,379 [33] INFO  SessionModule SESSION -> Clearing windows
+2019-07-10 09:56:30,385 [7] INFO  WSFedModule FED -> Using
+2019-07-10 09:56:34,276 [32] INFO  SessionModule SESSION -> Clearing windows
+2019-07-10 09:56:34,279 [32] INFO  WSFedModule FED -> Using
+2019-07-10 09:56:35,011 [35] INFO  SessionModule SESSION -> Using
+2019-07-10 09:56:35,013 [35] INFO  WSFedModule FED2 -> Using
+2019-07-10 09:56:35,014 [35] INFO  WSFedModule FED -> Using
+2019-07-10 09:57:47,456 [23] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 09:57:47,622 [23] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 09:57:47,671 [32] INFO  SessionModule SESSION -> Using
+2019-07-10 09:57:47,673 [32] INFO  WSFedModule FED -> Using
+2019-07-10 10:13:57,298 [31] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:13:57,484 [31] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:13:57,533 [49] INFO  SessionModule SESSION -> Using
+2019-07-10 10:13:57,536 [49] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:44,241 [31] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:14:44,429 [31] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:14:44,477 [49] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:44,479 [49] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:44,481 [49] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,470 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,473 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,477 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,535 [39] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,536 [39] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,537 [39] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,587 [61] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,588 [61] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,589 [61] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,644 [47] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,647 [47] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,648 [47] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,690 [32] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,694 [32] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,696 [32] INFO  WSFedModule FED -> Using
+2019-07-10 10:14:47,735 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:14:47,736 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:14:47,737 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,684 [57] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,685 [57] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,689 [57] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,740 [50] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,742 [50] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,747 [50] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,820 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,821 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,823 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,868 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,869 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,870 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,952 [22] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,954 [22] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,955 [22] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:18,996 [32] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:18,997 [32] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:18,999 [32] INFO  WSFedModule FED -> Using
+2019-07-10 10:15:28,117 [47] INFO  SessionModule SESSION -> Using
+2019-07-10 10:15:28,119 [47] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:15:28,123 [47] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:34,780 [31] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:16:34,971 [31] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:16:35,023 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,025 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,027 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,180 [51] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,183 [51] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,188 [51] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,244 [50] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,245 [50] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,246 [50] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,301 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,302 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,303 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,371 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,372 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,374 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,445 [32] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,447 [32] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,452 [32] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:35,507 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:35,509 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:35,510 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:43,130 [50] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:43,131 [50] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:43,133 [50] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:58,682 [50] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:58,684 [50] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:58,685 [50] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:58,896 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:58,897 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:58,899 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:58,960 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:58,962 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:58,964 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:59,015 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:59,016 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:59,017 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:59,069 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:59,071 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:59,072 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:59,127 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:59,129 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:59,131 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:16:59,193 [32] INFO  SessionModule SESSION -> Using
+2019-07-10 10:16:59,197 [32] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:16:59,198 [32] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:10,161 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:10,163 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:10,165 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:54,824 [6] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:17:55,002 [6] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:17:55,067 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:55,073 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:57,959 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:58,003 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:58,006 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:58,023 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:58,042 [57] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:58,053 [57] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:58,047 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:58,071 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:58,056 [64] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:58,088 [64] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:58,080 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:58,062 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:17:58,113 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:17:58,095 [64] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:58,074 [57] INFO  WSFedModule FED -> Using
+2019-07-10 10:17:58,150 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,422 [64] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,425 [64] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,426 [64] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,595 [50] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,596 [50] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,597 [50] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,645 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,646 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,649 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,707 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,709 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,711 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,761 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,762 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,763 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,812 [57] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,813 [57] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,816 [57] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:03,861 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:03,862 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:03,863 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:18:55,571 [57] INFO  SessionModule SESSION -> Using
+2019-07-10 10:18:55,573 [57] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:18:55,574 [57] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:17,089 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:17,090 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:17,099 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:36,863 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,864 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,870 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:36,886 [64] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,888 [64] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,887 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,887 [65] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,901 [65] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,887 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,903 [65] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:36,904 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,898 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,904 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:36,919 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:36,953 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:36,980 [64] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:37,100 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:37,120 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,429 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,433 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,436 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,546 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,549 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,551 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,629 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,631 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,636 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,685 [64] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,686 [64] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,688 [64] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,726 [65] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,728 [65] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,729 [65] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,819 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,822 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,823 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:19:44,862 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:19:44,864 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:19:44,865 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:54,853 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:54,854 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:54,855 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:54,936 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:54,937 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:54,938 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:54,995 [53] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:54,996 [53] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:54,997 [53] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:55,044 [44] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:55,045 [44] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:55,046 [44] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:55,100 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:55,103 [62] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:55,104 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:55,146 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:55,149 [59] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:55,152 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:21:55,194 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:21:55,195 [60] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:21:55,196 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:20,209 [31] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:23:20,426 [31] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:23:20,485 [62] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:20,487 [62] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:20,622 [59] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:20,636 [59] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:20,647 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:23,662 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:23,680 [42] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:23,694 [42] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:23,698 [46] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:23,702 [46] INFO  WSFedModule FED -> Using
+2019-07-10 10:23:56,582 [23] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:23:56,801 [23] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:23:56,864 [60] INFO  SessionModule SESSION -> Using
+2019-07-10 10:23:59,646 [60] INFO  WSFedModule FED -> Using
+2019-07-10 10:24:06,378 [64] INFO  SessionModule SESSION -> Using
+2019-07-10 10:24:06,384 [64] INFO  WSFedModule FED -> Using
+2019-07-10 10:25:31,241 [34] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:25:31,452 [34] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:25:31,520 [42] INFO  SessionModule SESSION -> Using
+2019-07-10 10:25:31,526 [42] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:25:34,338 [42] INFO  WSFedModule FED -> Using
+2019-07-10 10:25:34,359 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:25:34,361 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:25:34,374 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:25:34,379 [63] INFO  SessionModule SESSION -> Using
+2019-07-10 10:25:34,381 [63] INFO  WSFedModule FED2 -> Using
+2019-07-10 10:25:34,388 [63] INFO  WSFedModule FED -> Using
+2019-07-10 10:26:02,060 [34] INFO  MortysAwesomeClientApp.MvcApplication Application startup
+2019-07-10 10:26:02,310 [34] INFO  MortysAwesomeClientApp.MvcApplication Configuring WSFederation
+2019-07-10 10:26:02,372 [59] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:02,375 [59] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:02,386 [46] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:05,100 [46] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:05,117 [42] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:05,145 [42] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:05,157 [62] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:05,159 [62] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:10,017 [44] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:10,035 [44] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:10,472 [46] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:10,487 [46] INFO  WSFedModule FED -> NOT Using
+2019-07-10 10:26:11,000 [62] INFO  SessionModule SESSION -> NOT Using
+2019-07-10 10:26:11,002 [62] INFO  WSFedModule FED -> NOT Using

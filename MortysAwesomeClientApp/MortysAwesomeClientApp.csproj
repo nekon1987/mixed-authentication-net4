@@ -264,7 +264,7 @@
           <DevelopmentServerPort>33467</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost/MortysAwesomeClientApp</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
+          <NTLMAuthentication>True</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
           </CustomServerUrl>

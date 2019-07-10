@@ -17,7 +17,13 @@ namespace MortysAwesomeClientApp
     public class MvcApplication : System.Web.HttpApplication
     {
         private readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
- 
+
+        protected void Application_Error()
+        {
+            var ex = Server.GetLastError();
+            log.Error(ex);
+            //log the error!
+        }
 
         protected void Application_Start()
         {
@@ -31,6 +37,23 @@ namespace MortysAwesomeClientApp
 
             FederatedAuthentication.FederationConfigurationCreated += FederatedAuthentication_FederationConfigurationCreated;           
         }
+
+        //protected void Application_BeginRequest(object sender, EventArgs e)
+        //{
+        //    // Do Not Allow URL to end in trailing slash
+        //    string url = HttpContext.Current.Request.Url.AbsolutePath;
+        //    if (string.IsNullOrEmpty(url)) return;
+
+        //    string lastChar = url[url.Length - 1].ToString();
+        //    if (lastChar == "/" || lastChar == "\\")
+        //    {
+        //        url = url.Substring(0, url.Length - 1);
+        //        Response.Clear();
+        //        Response.Status = "301 Moved Permanently";
+        //        Response.AddHeader("Location", url);
+        //        Response.End();
+        //    }
+        //}
 
         private void FederatedAuthentication_FederationConfigurationCreated(object sender, FederationConfigurationCreatedEventArgs e)
         {
