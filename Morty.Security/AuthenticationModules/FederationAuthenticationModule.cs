@@ -49,14 +49,14 @@ namespace Morty.Security.AuthenticationModules
 
         public static FederationConfiguration LoadConfigurationSection()
         {      
-            string allowedAudience = FocusMixedAuthentication.Settings.ClientApplicationUri;
-            string rpRealm = FocusMixedAuthentication.Settings.ClientApplicationUri;
-            string domain = "";
-            bool requireSsl = true;
-            string issuer = FocusMixedAuthentication.Settings.SecurityTokenIssuerUri;
-            string certThumbprint = FocusMixedAuthentication.Settings.TokenSigningSertificateThumbprint;
-            string issuingAuthorityUri = FocusMixedAuthentication.Settings.TokenIssuingAuthorityUri;
-            string authCookieName = "FocusFederatedAuth";
+            var allowedAudience = MortysMixedAuthenticationConfiguration.Settings.ClientApplicationUri;
+            var rpRealm = MortysMixedAuthenticationConfiguration.Settings.ClientApplicationUri;
+            var domain = "";
+            var requireSsl = true;
+            var issuer = MortysMixedAuthenticationConfiguration.Settings.SecurityTokenIssuerUri;
+            var certThumbprint = MortysMixedAuthenticationConfiguration.Settings.TokenSigningSertificateThumbprint;
+            var issuingAuthorityUri = MortysMixedAuthenticationConfiguration.Settings.TokenIssuingAuthorityUri;
+            var authCookieName = "FocusFederatedAuth";
 
             var federationConfiguration = new FederationConfiguration();
             federationConfiguration.IdentityConfiguration.AudienceRestriction.AllowedAudienceUris.Add(new Uri(allowedAudience));

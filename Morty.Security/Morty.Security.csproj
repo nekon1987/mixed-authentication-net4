@@ -52,7 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\FocusMixedAuthentication.cs" />
+    <Compile Include="Communication\HttpHelper.cs" />
+    <Compile Include="Configuration\MortysMixedAuthenticationConfiguration.cs" />
     <Compile Include="Routing\AuthenticationModuleTypes.cs" />
     <Compile Include="Routing\AuthenticationRoutingService.cs" />
     <Compile Include="AuthenticationModules\FederationAuthenticationModule.cs" />

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Morty.Security.Configuration
 {
-    public class FocusMixedAuthentication: ConfigurationSection
+    public class MortysMixedAuthenticationConfiguration: ConfigurationSection
     {
-        public static FocusMixedAuthentication Settings { get; } =
-            ConfigurationManager.GetSection("FocusMixedAuthentication") as FocusMixedAuthentication;
+        public static MortysMixedAuthenticationConfiguration Settings { get; } =
+            ConfigurationManager.GetSection("MortysMixedAuthenticationConfiguration") as MortysMixedAuthenticationConfiguration;
 
         [ConfigurationProperty("ClientApplicationUri", IsRequired = true)]
         public string ClientApplicationUri

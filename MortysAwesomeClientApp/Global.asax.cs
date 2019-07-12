@@ -37,10 +37,10 @@ namespace MortysAwesomeClientApp
         {
             log.Info("Configuring WSFederation");
 
-            log.Info($"ClientApplicationUri:  {FocusMixedAuthentication.Settings.ClientApplicationUri}");
-            log.Info($"SecurityTokenIssuerUri:  {FocusMixedAuthentication.Settings.SecurityTokenIssuerUri}");
-            log.Info($"TokenIssuingAuthorityUri:  {FocusMixedAuthentication.Settings.TokenIssuingAuthorityUri}");
-            log.Info($"TokenSigningSertificateThumbprint:  {FocusMixedAuthentication.Settings.TokenSigningSertificateThumbprint}");
+            log.Info($"ClientApplicationUri:  {MortysMixedAuthenticationConfiguration.Settings.ClientApplicationUri}");
+            log.Info($"SecurityTokenIssuerUri:  {MortysMixedAuthenticationConfiguration.Settings.SecurityTokenIssuerUri}");
+            log.Info($"TokenIssuingAuthorityUri:  {MortysMixedAuthenticationConfiguration.Settings.TokenIssuingAuthorityUri}");
+            log.Info($"TokenSigningSertificateThumbprint:  {MortysMixedAuthenticationConfiguration.Settings.TokenSigningSertificateThumbprint}");
 
             e.FederationConfiguration = FederationAuthenticationModule.LoadConfigurationSection();
         }
